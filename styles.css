@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(129, 0, 0);
+  color: white;
+  margin: 0%;
+  font-size: 1.2em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  background-color: rgb(6, 51, 0, 0.8);
+  text-align: center;
+  width: 100%;
+  margin: 0%;
+  padding: 10px;
+}
+#reference {
+  text-align: center;
+  background-color: rgb(6, 51, 0, 0.8);
+  width: 100%;
+  margin: 0%;
+  padding: 10px;
+  border-bottom: solid black 2px;
+}
+#beef-tagine {
+  border: solid black 2px;
+  width: 400px;
+  height: 600px;
+}
+#description {
+  padding: 10px;
+  text-align: center;
+}
+#recipe-intro {
+  padding: 10px;
+  text-align: center;
+  border-top: solid black 2px;
+}
+#ingredients {
+  padding: 10px;
+}
+#instructions {
+  padding: 10px;
+}
+#notes {
+  padding: 10px;
+}
+footer {
+  background-color: rgb(6, 51, 0, 0.8);
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0%;
+  padding: 10px;
+  border-top: solid black 2px;
+}
