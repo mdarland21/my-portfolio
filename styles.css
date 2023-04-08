@@ -1,55 +1,103 @@
 body {
-  background-color: rgb(129, 0, 0);
+  background-color: #7d0800;
   color: white;
-  margin: 0%;
+  margin: 0;
   font-size: 1.2em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-h1 {
-  background-color: rgb(6, 51, 0, 0.8);
+a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  background-color: gray;
+  padding: 10px;
+  margin: 0;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+.nav-header {
+  background-color: #41573e;
   text-align: center;
   width: 100%;
-  margin: 0%;
-  padding: 10px;
-}
-#reference {
-  text-align: center;
-  background-color: rgb(6, 51, 0, 0.8);
-  width: 100%;
-  margin: 0%;
-  padding: 10px;
+  margin: 0;
   border-bottom: solid black 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-heading {
+  width: 100%;
+  font-size: 1.3em;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.reference {
+  width: 100%;
+  padding: 0 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.nav-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-items {
+  list-style-type: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+#description {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
 }
 #beef-tagine {
   border: solid black 2px;
+  border-radius: 10px;
   width: 400px;
   height: 600px;
 }
-#description {
-  padding: 10px;
-  text-align: center;
-}
 #recipe-intro {
-  padding: 10px;
+  padding: 30px;
   text-align: center;
   border-top: solid black 2px;
+  width: 100%;
 }
 #ingredients {
-  padding: 10px;
+  padding: 30px;
+  width: 100%;
 }
 #instructions {
-  padding: 10px;
+  padding: 30px;
+  width: 100%;
 }
 #notes {
-  padding: 10px;
+  padding: 30px;
+  width: 100%;
 }
 footer {
-  background-color: rgb(6, 51, 0, 0.8);
+  background-color: #41573e;
   color: white;
   text-align: center;
   width: 100%;
-  margin: 0%;
-  padding: 10px;
+  margin: 0;
+  padding: 20px;
   border-top: solid black 2px;
 }
